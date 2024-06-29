@@ -15,7 +15,7 @@
 <body class="x-overflow-hidden relative">
     <header class="bg-neutral-950 h-[900px]">
         <div class="absolute  w-full border-neutral-800">
-            <div class="flex justify-between items-center w-[1140px] py-16 mx-auto ">
+            <div class="flex justify-between items-center max-w-[1140px] py-16 mx-auto ">
                 <div>
                     <a class="relative z-30" aria-label="Home" href="/">
                         <svg viewBox="0 0 32 32" aria-hidden="true" class="fill-black h-12 sm:hidden">
@@ -71,35 +71,26 @@
 
         </div>
 
-        <nav class="mt-px  font-display text-5xl font-medium tracking-tight text-white">
-            <div class="even:mt-px sm:bg-neutral-950">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div class="mx-auto max-w-2xl lg:max-w-none">
-                        <div class=" grid grid-cols-1 sm:grid-cols-2"><a
-                                class=" group relative isolate -mx-6 bg-neutral-950 px-6 py-10 even:mt-px sm:mx-0 sm:px-0 sm:py-16 sm:odd:pr-16 sm:even:mt-0 sm:even:border-l sm:border-neutral-800 sm:even:pl-16"
-                                href="/work">Our Work<span
-                                    class="absolute inset-y-0 -z-10 w-screen bg-neutral-900 opacity-0 transition group-odd:right-0 group-even:left-0 group-hover:opacity-100"></span></a><a
-                                class="group relative isolate -mx-6 bg-neutral-950 px-6 py-10 even:mt-px sm:mx-0 sm:px-0 sm:py-16 sm:odd:pr-16 sm:even:mt-0 sm:even:border-l sm:border-neutral-800 sm:even:pl-16"
-                                href="/about">About Us<span
-                                    class="absolute inset-y-0 -z-10 w-screen bg-neutral-900 opacity-0 transition group-odd:right-0 group-even:left-0 group-hover:opacity-100"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="even:mt-px sm:bg-neutral-950">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8 sm:border-neutral-800">
-                    <div class="mx-auto max-w-2xl lg:max-w-none">
-                        <div class="grid grid-cols-1 sm:grid-cols-2"><a
-                                class="group relative isolate -mx-6 bg-neutral-950 px-6 py-10 even:mt-px sm:mx-0 sm:px-0 sm:py-16 sm:odd:pr-16 sm:even:mt-0 sm:even:border-l sm:even:border-neutral-800 sm:even:pl-16"
-                                href="/process">Our Process<span
-                                    class="absolute inset-y-0 -z-10 w-screen bg-neutral-900 opacity-0 transition group-odd:right-0 group-even:left-0 group-hover:opacity-100"></span></a><a
-                                class="group relative isolate -mx-6 bg-neutral-950 px-6 py-10 even:mt-px sm:mx-0 sm:px-0 sm:py-16 sm:odd:pr-16 sm:even:mt-0 sm:even:border-l sm:even:border-neutral-800 sm:even:pl-16"
-                                href="/blog">Blog<span
-                                    class="absolute inset-y-0 -z-10 w-screen bg-neutral-900 opacity-0 transition group-odd:right-0 group-even:left-0 group-hover:opacity-100"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <nav class="bg-blac mt-10 font-medium font-display border-t-[.2px] border-neutral-800   text-5xl text-white">
+
+               <div class="w-full  mx-auto flex justify-center items-center lg:flex-row flex-col">
+                   <div class="hover:bg-neutral-600 lg:w-[50%] w-full px-8 border-l-[.2px] border-b-[.2px] border-neutral-800">
+                    <a href="/" class="w-full h-full px-[70px] py-[60px] block">Our Work</a>
+                   </div>
+                   <div class="hover:bg-neutral-600 lg:w-[50%] w-full  px-8  border-l-[.2px] border-b-[.2px] border-neutral-800">
+                    <a href="/" class="w-full h-full px-[50px] py-[60px] block">About Us</a>
+                   </div>
+               </div>
+               <div class="w-full  mx-auto flex justify-center items-center lg:flex-row flex-col">
+                   <div class="hover:bg-neutral-600 lg:w-[50%] w-full px-8 border-b-[.2px] border-neutral-800">
+                    <a href="/" class="w-full h-full px-[70px] py-[60px] block">Our Process</a>
+                   </div>
+                   <div class="hover:bg-neutral-600 lg:w-[50%] w-full  px-8  border-l-[.2px] border-neutral-800">
+                    <a href="/" class="w-full h-full px-[50px] py-[60px] block">Blog</a>
+                   </div>
+               </div>
+               
+
         </nav>
         <!-- <div class=" py-12 mx-auto">
             <ul class="flex flex-wrap">
@@ -197,7 +188,7 @@
                 <div>
                     <div class="max-w-3xl" style="opacity: 1; transform: none;">
                         <h1
-                            class="font-display text-5xl font-semibold tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl ">
+                            class="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl ">
                             Award-winning development studio based in Denmark.</h1>
                         <p class="mt-6 text-xl text-neutral-600">We are a development studio working at the intersection
                             of design and technology. It’s a really busy intersection though — a lot of our staff have
