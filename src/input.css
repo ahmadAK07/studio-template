@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-weight: 200 900;
+    font-display: block;
+    font-style: normal;
+    font-stretch: 100% 150%;
+    src: url(./font/Mona-Sans.var.woff2) format('woff2');
+  }
+
+* {
+    font-family: 'Mona Sans';
+}
+main {
+    transition: all .5s;
+}
