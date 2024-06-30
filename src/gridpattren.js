@@ -58,16 +58,16 @@ svg.addEventListener('mousemove', (event) => {
   const key = counter;
   const block = createBlock(x, y, key);
 
-  setTimeout(() => {
-    block.style.opacity = '1';
-  }, 0);
+  // setTimeout(() => {
+  // }, 0);
+  block.style.opacity = '1';
 
   setTimeout(() => {
     block.style.opacity = '0';
     setTimeout(() => {
       blocksContainer.removeChild(block);
     }, 500);
-  }, 500);
+  }, 0);
 });
 }
 });
