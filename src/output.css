@@ -642,6 +642,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .block {
   display: block;
 }
@@ -698,6 +702,42 @@ video {
   height: 100%;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-\[820px\] {
+  height: 820px;
+}
+
+.h-\[810px\] {
+  height: 810px;
+}
+
+.h-\[790px\] {
+  height: 790px;
+}
+
+.h-\[770px\] {
+  height: 770px;
+}
+
+.h-\[780px\] {
+  height: 780px;
+}
+
+.h-\[757px\] {
+  height: 757px;
+}
+
+.h-\[775px\] {
+  height: 775px;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -736,6 +776,10 @@ video {
 
 .max-w-\[1140px\] {
   max-width: 1140px;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
 }
 
 .transform {
@@ -898,6 +942,11 @@ video {
   padding-bottom: 1.75rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -912,6 +961,22 @@ video {
 
 .pt-\[170px\] {
   padding-top: 170px;
+}
+
+.pt-\[190px\] {
+  padding-top: 190px;
+}
+
+.pt-\[180px\] {
+  padding-top: 180px;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .font-display {
@@ -1002,34 +1067,9 @@ video {
   transition-duration: 300ms;
 }
 
-.\[mask-image\:linear-gradient\(to_bottom_left\2c white_35\%\2c transparent_50\%\)\] {
-  -webkit-mask-image: linear-gradient(to bottom left,white 35%,transparent 50%);
-          mask-image: linear-gradient(to bottom left,white 35%,transparent 50%);
-}
-
 .\[mask-image\:linear-gradient\(to_bottom_left\2c white_35\%\2c transparent_55\%\)\] {
   -webkit-mask-image: linear-gradient(to bottom left,white 35%,transparent 55%);
           mask-image: linear-gradient(to bottom left,white 35%,transparent 55%);
-}
-
-.\[mask-image\:linear-gradient\(to_bottom_left\2c white_35\%\2c transparent_60\%\)\] {
-  -webkit-mask-image: linear-gradient(to bottom left,white 35%,transparent 60%);
-          mask-image: linear-gradient(to bottom left,white 35%,transparent 60%);
-}
-
-.\[mask-image\:linear-gradient\(to_bottom_left\2c white_35\%\2c transparent_65\%\)\] {
-  -webkit-mask-image: linear-gradient(to bottom left,white 35%,transparent 65%);
-          mask-image: linear-gradient(to bottom left,white 35%,transparent 65%);
-}
-
-.\[mask-image\:linear-gradient\(to_bottom_left\2c white_35\%\2c transparent_70\%\)\] {
-  -webkit-mask-image: linear-gradient(to bottom left,white 35%,transparent 70%);
-          mask-image: linear-gradient(to bottom left,white 35%,transparent 70%);
-}
-
-.\[mask-image\:linear-gradient\(to_bottom_left\2c white_40\%\2c transparent_50\%\)\] {
-  -webkit-mask-image: linear-gradient(to bottom left,white 40%,transparent 50%);
-          mask-image: linear-gradient(to bottom left,white 40%,transparent 50%);
 }
 
 .\[text-wrap\:balance\] {
@@ -1129,6 +1169,10 @@ main {
     margin-right: 0px;
   }
 
+  .sm\:mt-32 {
+    margin-top: 8rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1196,6 +1240,12 @@ main {
 
   .sm\:even\:pl-16:nth-child(even) {
     padding-left: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mt-56 {
+    margin-top: 14rem;
   }
 }
 
